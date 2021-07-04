@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>upload</title>
+</head>
+<body>
+<h1>upload file </h1>
+
+<form 
+	action="sendUpload" method="post" 
+	enctype="multipart/form-data"
+>
+	you file : 
+<input type="file" accept="image/png image/jpg image/jpeg"
+name="formUpload">
+<!-- for image , for other file not use accept -->
+<input type="submit" value="send Upload" name="">
+
+</form>
+</body>
+</html>
